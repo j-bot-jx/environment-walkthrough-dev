@@ -1,0 +1,10 @@
+adminUser:
+  password: local:walkthrough/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: karadelamarck@gmail.com
+  token: local:walkthrough/pipelineUser:token
+  username: j-bot-jx
+prow:
+  hmacToken: local:walkthrough/prow:hmacToken
