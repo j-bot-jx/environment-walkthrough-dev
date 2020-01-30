@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: jenkins-x-space
+  repo: jx-tutorial
+  url: https://github.com/jenkins-x-space/jx-tutorial.git
+  version: ""
+  versionURL: ""

@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jenkins-x-space
+    provider: github
+    repository: jx-tutorial
+  name: jenkins-x-space-jx-tutorial
+spec:
+  description: Imported application for jenkins-x-space/jx-tutorial
+  httpCloneURL: https://github.com/jenkins-x-space/jx-tutorial.git
+  org: jenkins-x-space
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-tutorial
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/jenkins-x-space/jx-tutorial.git
